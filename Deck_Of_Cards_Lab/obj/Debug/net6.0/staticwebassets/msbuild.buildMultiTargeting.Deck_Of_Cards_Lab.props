@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Deck_Of_Cards_Lab.props" />
+</Project>

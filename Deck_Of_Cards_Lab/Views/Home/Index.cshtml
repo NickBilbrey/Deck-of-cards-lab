@@ -1,0 +1,9 @@
+﻿@model Cards
+
+@for(int i = 0; i < 5; i++)
+{
+    <ul>
+        <li>@Model.cards[i].value of @Model.cards[i].suit</li>
+    </ul>
+    <img src="@Model.cards[i].image" >
+}
